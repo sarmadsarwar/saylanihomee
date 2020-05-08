@@ -1,0 +1,35 @@
+.nara{
+    font-size: 10em;
+}
+.bara{
+    font-size: 50em;
+}
+.cara {font-size: 130%;
+
+}
+.one{font-size: 150%;
+}
+.two{
+    font-size: 150%;
+}
+.three {
+        font-size: 150%;
+}
+.container{
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 240px auto;
+
+}
+.container .box{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px-30px);
+    background: #ff0;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
